@@ -14,6 +14,7 @@ import { Link, useHistory } from "react-router-dom";
 import styles from "../../styles/SignInUpForm.module.css";
 import btnStyles from "../../styles/Button.module.css";
 import appStyles from "../../App.module.css";
+import {backend} from '../../constant';
 
 function SignInForm() {
   const [signInData, setSignInData] = useState({
@@ -28,7 +29,7 @@ function SignInForm() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      await axios.post("/dj-rest-auth/login/", signInData);
+      await axios.post(backend + "/dj-rest-auth/login/", signInData);
       history.push("/");
     } catch (err) {
       setErrors(err.response?.data);
