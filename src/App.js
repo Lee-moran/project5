@@ -8,6 +8,7 @@ import SignInForm from "./pages/auth/SignInForm";
 import PostCreateForm from "./pages/posts/PostCreateForm";
 import PostPage from "./pages/posts/PostPage";
 import About from "./pages/posts/About";
+import Learn from "./pages/posts/Learn";
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
             <Switch>
               <Route exact path="/" render={() => <h1>Home</h1>} />
               <Route exact path="/about" render={() => <About/>} />
-              <Route exact path="/learn" render ={() => <h1>Learn</h1>}/>
+              <Route exact path="/learn" render ={() => <Learn/>}/>
               <Route exact path="/signin" render={() => <SignInForm />} />
               <Route exact path="/signup" render={() => <SignUpForm />} />
               <Route exact path="/posts/create" render={() => <PostCreateForm/>} />
