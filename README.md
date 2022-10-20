@@ -55,9 +55,8 @@ LIKED - shows the pics you have liked.
 ## Fonts and Color scheme
 Exo & Ubuntu are the primary fonts I wanted to use because there soft and complamentarty. Giving of a sense of peace. the stroke in these font work well together.
 
-Exo
-Ubuntu
-As a fall back I used Roboto and lato which is a front i used before and lato as well as the standard sans serif. Good idea to have a fall back so your content is viewable.
+Roboto
+As a fall back I used Roboto and sans serif  as the standard. Good idea to have a fall back so your content is viewable.
 
 In terms of the color scheme I went with something slightly different. Wanting to incorperate greens and blues as there assicated with seeking jobs, money, growth..
 contrasting and vibrant colors on a white canvas.

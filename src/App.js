@@ -7,6 +7,7 @@ import SignUpForm from "./pages/auth/SignUpForm";
 import SignInForm from "./pages/auth/SignInForm";
 import PostCreateForm from "./pages/posts/PostCreateForm";
 import PostPage from "./pages/posts/PostPage";
+import About from "./pages/posts/About";
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
           <Container className={styles.Main}>
             <Switch>
               <Route exact path="/" render={() => <h1>Home</h1>} />
-              <Route exact path="/about" render={() => <h1>about</h1>} />
+              <Route exact path="/about" render={() => <About/>} />
               <Route exact path="/signin" render={() => <SignInForm />} />
               <Route exact path="/signup" render={() => <SignUpForm />} />
               <Route exact path="/posts/create" render={() => <PostCreateForm/>} />
